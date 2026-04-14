@@ -1,0 +1,29 @@
+name: phoenix
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.10.18
+  - pip
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - datasets
+  - pandas
+  - scikit-learn
+  - numpy
+  - scipy
+  - tqdm
+  - pyyaml
+  - gmpy2>=2.1.0
+  - pip:
+      - peft
+      - trl
+      - bitsandbytes
+      - accelerate
+      - vllm>=0.7.3
+      - git+https://github.com/huggingface/transformers.git  # Source install for Qwen3.5 support
+      - modelscope

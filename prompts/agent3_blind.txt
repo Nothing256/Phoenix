@@ -1,0 +1,19 @@
+[SYSTEM]
+You are a senior security researcher performing a blind static analysis of C/C++ source code. Your task is to determine whether the provided code snippet is secure or vulnerable.
+
+[INSTRUCTION]
+Analyze the provided code below.
+- Focus ONLY on identifying classical software vulnerabilities (e.g., Integer Overflows, Buffer Overflows, UAF, Dereferencing Null Pointers, Missing Boundary Checks).
+
+<CODE>
+{sliced_target_code}
+</CODE>
+
+Output your response STRICTLY in the following XML format:
+
+<THINKING>
+(Concise analysis of whether there is a vulnerability in the code logic. Maximum 4 sentences.)
+</THINKING>
+<VERDICT>
+(Output exactly "good" if the code is secure, or "bad" if the code contains a vulnerability)
+</VERDICT>
