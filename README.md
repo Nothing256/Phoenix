@@ -246,13 +246,20 @@ Phoenix has been tested with the following model families:
 
 ## Pre-computed Results
 
-To reproduce our results without re-running the full pipeline, download our
-pre-computed intermediate outputs from Zenodo:
+All pre-computed intermediate outputs from each pipeline stage across all
+25 configurations reported in the paper are included in the `results/` directory
+of this repository:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+```
+results/
+├── agent1_*.jsonl          # Semantic Slicer outputs
+├── agent2_*.jsonl          # Requirement Reverse Engineer outputs
+├── agent3_*.jsonl          # Contract Judge outputs (final verdicts)
+└── ...                     # 29 JSONL files total
+```
 
-The Zenodo archive contains all JSONL files from each pipeline stage across all
-25 configurations reported in the paper.
+These files allow full reproduction of all reported metrics without re-running
+the LLM inference pipeline.
 
 ---
 
