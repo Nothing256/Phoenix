@@ -1,11 +1,16 @@
-# 🔥 Phoenix
+<p align="center">
+  <img src="assets/banner.png" alt="Phoenix" width="720">
+</p>
 
-**Security Is Relative: Training-Free Vulnerability Detection via Multi-Agent Behavioral Contract Synthesis**
+<h3 align="center">Security Is Relative: Training-Free Vulnerability Detection<br>via Multi-Agent Behavioral Contract Synthesis</h3>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+<p align="center">
+  <a href="https://arxiv.org/abs/2604.19012"><img src="https://img.shields.io/badge/arXiv-2604.19012-b31b1b.svg" alt="arXiv"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python 3.10+"></a>
+  <a href="https://arxiv.org/abs/2604.17464"><img src="https://img.shields.io/badge/Sister_Project-Prometheus-orange.svg" alt="Prometheus"></a>
+</p>
 
----
 
 ## Overview
 
@@ -50,8 +55,8 @@ Instead of asking "Is this code vulnerable?", Phoenix asks: "Does this code sati
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/[Anonymous]/Phoenix.git
-cd phoenix
+git clone https://github.com/Nothing256/Phoenix.git
+cd Phoenix
 ```
 
 ### 2. Set up the environment
@@ -268,12 +273,32 @@ the LLM inference pipeline.
 If you find Phoenix useful in your research, please cite:
 
 ```bibtex
-@article{phoenix2026,
+@misc{wang2026phoenix,
   title   = {Security Is Relative: Training-Free Vulnerability Detection
              via Multi-Agent Behavioral Contract Synthesis},
-  author  = {Anonymous Authors},
-  journal = {Under Review},
-  year    = {2026}
+  author  = {Yongchao Wang and Zhiqiu Huang},
+  year    = {2026},
+  eprint  = {2604.19012},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url     = {https://arxiv.org/abs/2604.19012}
+}
+```
+
+### Sister Project: Prometheus
+
+Phoenix shares its core methodology — Gherkin-based Behavioral Contract Synthesis — with [**Project Prometheus**](https://github.com/Nothing256/Prometheus-Unbound), which applies the same paradigm to **Automated Program Repair**, achieving a 93.97% fix rate on 680 Defects4J bugs.
+
+```bibtex
+@misc{wang2026prometheus,
+  title   = {Project Prometheus: Bridging the Intent Gap in Agentic Program
+             Repair via Reverse-Engineered Executable Specifications},
+  author  = {Yongchao Wang and Zhiqiu Huang},
+  year    = {2026},
+  eprint  = {2604.17464},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url     = {https://arxiv.org/abs/2604.17464}
 }
 ```
 
@@ -282,3 +307,9 @@ If you find Phoenix useful in your research, please cite:
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <i>Built with ❤️ by the Phoenix Team of <b>Phoenix Universe</b>. Security is relative.</i>
+</p>
