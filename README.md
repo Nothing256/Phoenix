@@ -42,7 +42,7 @@ Instead of asking "Is this code vulnerable?", Phoenix asks: "Does this code sati
 | Method | F1 | Pair-Correct | Model Size |
 |--------|-----|-------------|------------|
 | **Phoenix (Ours)** | **0.825** | **64.4%** | 7–14B |
-| RASM-Vul | 0.668 | 21.4%* | 685B (DeepSeek-V3) |
+| RASM-Vul | 0.668 | 21.4%* | 671B (DeepSeek-V3) |
 | VulTrial (ICSE 2026) | 0.561 | 18.6%* | GPT-4 |
 | CodeBERT (fine-tuned) | 0.472 | — | 125M |
 
