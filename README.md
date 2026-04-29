@@ -280,7 +280,7 @@ If you find Phoenix useful in your research, please cite:
   year    = {2026},
   eprint  = {2604.19012},
   archivePrefix = {arXiv},
-  primaryClass  = {cs.SE},
+  primaryClass  = {cs.CR},
   url     = {https://arxiv.org/abs/2604.19012}
 }
 ```
